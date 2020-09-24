@@ -1,0 +1,193 @@
+/*CSS for index page */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.wrapper {
+
+}
+
+.logoImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+}
+
+.logoImage img {
+    height: 70px;
+}
+
+.firstImage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.secondImage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.bookSeat {
+    background-color: gainsboro;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.bookSeat p {
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.bookSeat span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bookSeat .faRebel {
+    color: green;
+    font-size: 20px;
+}
+
+.bookinghamLogo {
+    height: 50px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons .appStore {
+    display: block;
+    width: 126px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+
+.icons .googleStore {
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 146px;
+    height: 60px;
+}
+
+.logoImageWrapper {
+    background-color: black;
+}
+
+.logoImageWrapper .socialIcons {
+    display: flex;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.logoImageWrapper .socialIcons {
+    justify-content: center;
+}
+
+.socialIcons .findUs {
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+.container {
+    margin-bottom: 30px;
+}
+
+.container button {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 40px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+
+/* CSS for menu page */
+.menu {
+
+}
+
+.menu .title {
+    display: inline-flex;
+    font-size: 25px;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+.menu .subTitle {
+   color: silver;
+    font-size: 12px;
+}
+
+.item {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.item:nth-child(even) {
+    background-color: gray;
+    color: white;
+}
+
+.item:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+.item .itemTitle {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.item .itemDescription {
+    font-size: 12px;
+}
+
+.item .itemCombine {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemCombine .itemPrice {
+    font-size: 15px;
+    font-weight: 900;
+}
